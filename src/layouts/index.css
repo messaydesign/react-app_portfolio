@@ -24,6 +24,11 @@ text-decoration: none;
    height: 100vh;
    background-size: cover;
    background-position: center;
+   opacity: 0;
+   animation: HeroAnimation;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 
 }
 .nameGroup {
@@ -38,12 +43,23 @@ text-decoration: none;
   font-family: "marydale",sans-serif;
   font-size: 65px;
   font-weight: 800;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration:2s;
+  animation-delay:1s;
+  animation-fill-mode: forwards;
 }
 
 .nameCont {
   font-size: 18px;
   font-weight: 100;
   text-align: left;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration:1s;
+  animation-fill-mode: forwards;
+  
+
 }
 
 
@@ -170,3 +186,15 @@ main {
   }
 }
 
+
+
+@keyframes HeroAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100%{
+       opacity: 1;
+       transform: translateY(0px);
+  }
+}

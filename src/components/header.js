@@ -11,8 +11,6 @@ const Header = ({ siteTitle }) => (
   <Link to="/About"> About </Link>
   <Link to="/Lets_talk"><button> Let's<br/> Talk  </button> </Link>
   </div>
-
-
   </div>
 )
 
