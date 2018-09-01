@@ -18,13 +18,13 @@ const IndexPage = () => (
     </div>
      <p></p>
      <div className="social">
-     <Link to="/"> <img src={require ('../imges/insta.svg')} width="30"/> </Link>
-     <Link to="/"> <img src={require ('../imges/dribbble.svg')} width="30"/> </Link>
-     <Link to="/"> <img src={require ('../imges/twitter.svg')} width="30"/> </Link>
-     <Link to="/"> <img src={require ('../imges/medium.svg')} width="30"/> </Link>
-     <Link to="/"> <img src={require ('../imges/linkedin.svg')} width="30"/> </Link>
+     <Link to="/"> <img src={require ('../imges/insta.svg')} width="20"/> </Link>
+     <Link to="/"> <img src={require ('../imges/dribbble.svg')} width="20"/> </Link>
+     <Link to="/"> <img src={require ('../imges/twitter.svg')} width="20"/> </Link>
+     <Link to="/"> <img src={require ('../imges/medium.svg')} width="20"/> </Link>
+     <Link to="/"> <img src={require ('../imges/linkedin.svg')} width="20"/> </Link>
      <Link to="/"> <img src={require ('../imges/behance.svg')} width="100"/> </Link>
-     <Link to="/"> <img src={require ('../imges/github.svg')} width="30"/> </Link>
+     <Link to="/"> <img src={require ('../imges/github.svg')} width="20"/> </Link>
      </div>
     </div>
   </div>
