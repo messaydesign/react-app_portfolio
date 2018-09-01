@@ -1,0 +1,60 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 0px 0;
+    z-index: 100;
+}
+
+.HeaderGroup{
+    max-width: 800px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight: 700; 
+}
+
+.Header a:hover {
+    text-decoration: underline;
+    text-decoration-color:#fa3416;
+    color: rgb(150, 150, 150);
+    
+}
+
+.Header a:active {
+    text-decoration: underline;
+    text-decoration-color:#fa3416;
+    color: rgb(150, 150, 150);
+    
+    
+}
+
+.Header button {
+
+    font-weight: 900;
+    font-size: 22px;
+    padding: 10px 15px;
+    background-color: #fa3416;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.Header button:hover {
+background-color:lightcoral;
+}
+
+@media (max-width: 640px) {
+    .HeaderGroup {
+        grid-template: repeat(4, auto);
+    }
+    .Header a:nth-child(3) {
+        display: none;
+    }
+}
