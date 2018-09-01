@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-
+@import url("https://use.typekit.net/pat7xxp.css");
 body {
   color: white;
   margin:0;
@@ -14,16 +14,30 @@ text-decoration: none;
 }
 
 .hero{
-  color: white;
-   background-image: url('../imges/hero.jpg');
+  
+   background-image: url('../imges/here.svg'),url('../imges/hero.jpg');
    height: 100vh;
    background-size: cover;
    background-position: center;
+
+}
+.nameGroup {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  align-items: center;
+  justify-items: left;
+}
+.nameGroup h1 {
+  font-family: "marydale",sans-serif;
+  font-size: 68px;
+  font-weight: 800;
+ 
 }
 
 .hero-group {
   margin: 0 auto;
-  max-width: 500px;
-  padding: 150px 50px;
+  max-width: 600px;
+  padding: 35vh 50px;
   text-align: center;
 }
