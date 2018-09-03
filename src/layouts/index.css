@@ -160,11 +160,15 @@ main {
     padding-top: 24px;
   }
 
+  .sectionGroup {
+    display:grid;
+    grid-template-columns: repeat(1,auto);}
+    
   
 }
 
 
-@media (max-width: 640px){
+@media (max-width: 784px){
   .nameGroup h1{
    font-size: 24px;
    text-align: left;
@@ -184,6 +188,11 @@ main {
   .social img {
     padding-left: 16px;
   }
+  .sectionGroup {
+    display:grid;
+    grid-template-columns: repeat(2,auto);}
+    
+
 }
 
 
