@@ -87,6 +87,20 @@ text-decoration: none;
   opacity: 0.5;
 }
 
+.social2 {
+  position:absolute;
+  display: grid;
+  grid-template-columns: repeat(7,auto);
+  justify-items: right;
+  align-items: center;
+}
+.social img {
+  padding-left: 50px;
+}
+
+.social :hover {
+  opacity: 0.5;
+} 
 main {
   width: 100%;
   background-image: url('../imges/here.svg');
@@ -126,12 +140,14 @@ main {
 }
 .sectionGroup p{
   padding:0 16px;
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .sectionGroup h1{
+  padding:0 16px;
   font-family: "marydale",sans-serif;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 800;
   
 }
@@ -145,6 +161,7 @@ main {
   .nameGroup img {
     width: 50px;
   }
+  
   .social {
 
    width: 100%;

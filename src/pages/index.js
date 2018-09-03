@@ -18,13 +18,16 @@ const IndexPage = () => (
     </div>
      <p></p>
      <div className="social">
-     <Link to="/"> <img src={require ('../imges/insta.svg')} width="20"/> </Link>
-     <Link to="/"> <img src={require ('../imges/dribbble.svg')} width="20"/> </Link>
-     <Link to="/"> <img src={require ('../imges/twitter.svg')} width="20"/> </Link>
-     <Link to="/"> <img src={require ('../imges/medium.svg')} width="20"/> </Link>
-     <Link to="/"> <img src={require ('../imges/linkedin.svg')} width="20"/> </Link>
-     <Link to="/"> <img src={require ('../imges/behance.svg')} width="100"/> </Link>
-     <Link to="/"> <img src={require ('../imges/github.svg')} width="20"/> </Link>
+     <a href="https://www.instagram.com/messay_d/"><img src={require ('../imges/insta.svg')} width="20"/></a>
+     <a href="https://dribbble.com/messay_design"><img src={require ('../imges/dribbble.svg')} width="20"/></a>
+     <a href="https://twitter.com/messay_co"><img src={require ('../imges/twitter.svg')} width="20"/></a>
+     <a href="/"><img src={require ('../imges/medium.svg')} width="20"/></a>
+     <a href="www.linkedin.com/in/messayf"><img src={require ('../imges/linkedin.svg')} width="20"/></a>
+     <a href="https://www.behance.net/messayco"><img src={require ('../imges/behance.svg')} width="100"/></a>
+     <a href="/"><img src={require ('../imges/github.svg')} width="20"/></a>
+   
+     
+   
      </div>
     </div>
   </div>
@@ -35,8 +38,9 @@ const IndexPage = () => (
   Let’s Build <br/>Something great together
   </h1>
   <p>
-  It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
-Each individual from different disciplinary provides a unique and valuable perspective about the problem, as product enhances and feature updates have a huge impact across internal and external products.   In my product design process, I’ll be focusing on four areas I believe will facilitate my ability to make meaningful contributions to the team I am working with.
+  I specialize in building complex web applications, leading front-end teams, digital product design and developing visual design systems. I enjoy creating effortless user experience and designing delightful digital products. The entire process of going from a concept to release and gathering user’s feedback on either client’s or my own products is what makes me wake up everyday! Nowadays I lead product design at Tapdaq, previously I worked at Badoo and Socialbakers. 
+Earlier in 2016 I started turning my expertise into building my own digital design products. This helped me to learn even more about users and gain a deeper knowledge about launching and selling stuff as an individual. My best known products across the design community are currently Dashboard UI Kit 3.0 and Dashboard UI Kit totalling over 4000 sold copies.
+I worked with numerous clients from all around the world from early startups to well-established companies. I always seek new opportunities for cooperation on projects around interesting dashboards, design systems or landing pages. Let’s create something awesome together!
 </p>
 
 <p>
@@ -55,32 +59,36 @@ Each individual from different disciplinary provides a unique and valuable persp
   <section className="sectionName"> 
   <div className="sectionGroup">
   <div className="section1"> 
-  <h1> Empathize </h1>
+  <h1> User research </h1>
   <p>
-  It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
-Each individual from different disciplinary provides a unique and valuable perspective about the problem, as product enhances and feature updates have a huge impact across internal and external products.   In my product design process, I’ll be focusing on four areas I believe will facilitate my ability to make meaningful contributions to the team I am working with.
+    Products are used by whole range of people, from different cultures, with physical, and situational
+    constraints. User research will enable us to observe users in their natural environment, giving us a
+    better understanding of the way users work.
 </p> 
 </div>
   <div className="section1"> 
-  <h1> Understand </h1>
+  <h1> Business research</h1>
   <p>
-  It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
-Each individual from different disciplinary provides a unique and valuable perspective about the problem, as product enhances and feature updates have a huge impact across internal and external products.   In my product design process, I’ll be focusing on four areas I believe will facilitate my ability to make meaningful contributions to the team I am working with.
+  Developing a deeper understanding of the business mission, its culture, and operations to get a
+clear understanding of where the company is heading to and what type of product is aspired to
+build.
 </p> 
 </div>
 
   <div className="section1">
-  <h1> Prototype </h1>
+  <h1> Design Decision</h1>
    <p>
-  It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
-Each individual from different disciplinary provides a unique and valuable perspective about the problem, as product enhances and feature updates have a huge impact across internal and external products.   In my product design process, I’ll be focusing on four areas I believe will facilitate my ability to make meaningful contributions to the team I am working with.
+   For every design decision creating a quick sketch, flowcharts, prototypes and detailed documentation
+will help to have a clear understanding throughout the team I am working with, this will
+clear the air between Product, Business and Engineering.
 </p> 
 </div>
   <div className="section1">
-  <h1> Test </h1> 
+  <h1> Communication </h1> 
   <p>
-  It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
-Each individual from different disciplinary provides a unique and valuable perspective about the problem, as product enhances and feature updates have a huge impact across internal and external products.   In my product design process, I’ll be focusing on four areas I believe will facilitate my ability to make meaningful contributions to the team I am working with.
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
 </p>
 
  </div>
@@ -88,7 +96,7 @@ Each individual from different disciplinary provides a unique and valuable persp
   </div>
   
   </section>
-
+  
   
  </div>
 )
