@@ -45,6 +45,7 @@
     border: none;
     color: white;
     cursor: pointer;
+    outline : none;
     -webkit-transition: background-color .5s ease-out;
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;

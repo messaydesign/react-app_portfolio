@@ -9,7 +9,8 @@ const Header = ({ siteTitle }) => (
   <Link to="/Work"> Work </Link>
   <Link to="/Contact"> Contact </Link>
   <Link to="/About"> About </Link>
-  <Link to="/Lets_talk"><button> Let's<br/> Talk  </button> </Link>
+  <a href="mailto:info@messay.design?subject=lets work"> <button> Let's<br/> Talk  </button> </a>
+  <Link to="/Lets_talk"> </Link>
   </div>
   </div>
 )
