@@ -33,14 +33,15 @@ const IndexPage = () => (
   </div>
  <main>
    <div calssName="main">
+   
+
    <div className="mainGroup">
   <h1 calssName="main">
   Let’s Build <br/>Something great together
   </h1>
   <p>
-  I specialize in building complex web applications, leading front-end teams, digital product design and developing visual design systems. I enjoy creating effortless user experience and designing delightful digital products. The entire process of going from a concept to release and gathering user’s feedback on either client’s or my own products is what makes me wake up everyday! Nowadays I lead product design at Tapdaq, previously I worked at Badoo and Socialbakers. 
-Earlier in 2016 I started turning my expertise into building my own digital design products. This helped me to learn even more about users and gain a deeper knowledge about launching and selling stuff as an individual. My best known products across the design community are currently Dashboard UI Kit 3.0 and Dashboard UI Kit totalling over 4000 sold copies.
-I worked with numerous clients from all around the world from early startups to well-established companies. I always seek new opportunities for cooperation on projects around interesting dashboards, design systems or landing pages. Let’s create something awesome together!
+  It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
+Each individual from different disciplinary provides a unique and valuable perspective about the problem, as product enhances and feature updates have a huge impact across internal and external products.   In my product design process, I’ll be focusing on four areas I believe will facilitate my ability to make meaningful contributions to the team I am working with.
 </p>
 
 <p>
@@ -59,6 +60,7 @@ Each individual from different disciplinary provides a unique and valuable persp
   <section className="sectionName"> 
   <div className="sectionGroup">
   <div className="section1"> 
+  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div> 
   <h1> User research </h1>
   <p>
     Products are used by whole range of people, from different cultures, with physical, and situational
@@ -67,6 +69,7 @@ Each individual from different disciplinary provides a unique and valuable persp
 </p> 
 </div>
   <div className="section1"> 
+  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div>
   <h1> Business research</h1>
   <p>
   Developing a deeper understanding of the business mission, its culture, and operations to get a
@@ -76,6 +79,7 @@ build.
 </div>
 
   <div className="section1">
+  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div>
   <h1> Design Decision</h1>
    <p>
    For every design decision creating a quick sketch, flowcharts, prototypes and detailed documentation
@@ -84,6 +88,7 @@ clear the air between Product, Business and Engineering.
 </p> 
 </div>
   <div className="section1">
+  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div>
   <h1> Communication </h1> 
   <p>
   To pitch any design decision from any product team needs a clear pitch deck to get buy from
