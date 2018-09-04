@@ -61,7 +61,7 @@ Each individual from different disciplinary provides a unique and valuable persp
   <div className="sectionGroup">
   <div className="section1"> 
   
-  <h1> <div> <img src={require ('../imges/user.svg')} width="50"/> </div> User research </h1>
+  <h1> <div> <img src={require ('../imges/user-r.svg')} width="50"/> </div> User research </h1>
   <p>
     Products are used by whole range of people, from different cultures, with physical, and situational
     constraints. User research will enable us to observe users in their natural environment, giving us a
@@ -70,7 +70,7 @@ Each individual from different disciplinary provides a unique and valuable persp
 </div>
   <div className="section1"> 
   
-  <h1> <div> <img src={require ('../imges/user.svg')} width="50"/> </div> Business research</h1>
+  <h1> <div> <img src={require ('../imges/research.svg')} width="50"/> </div> Business research</h1>
   <p>
   Developing a deeper understanding of the business mission, its culture, and operations to get a
 clear understanding of where the company is heading to and what type of product is aspired to
@@ -80,7 +80,7 @@ build.
 
   <div className="section1">
   
-  <h1> <div> <img src={require ('../imges/user.svg')} width="50"/> </div> Design Decision</h1>
+  <h1> <div> <img src={require ('../imges/design.svg')} width="42"/> </div> Design Decision</h1>
    <p>
    For every design decision creating a quick sketch, flowcharts, prototypes and detailed documentation
 will help to have a clear understanding throughout the team I am working with, this will
@@ -102,6 +102,11 @@ pitfalls and make positive impact.
   
   </section>
   
+  <div class="work"> 
+  <div class="workGroup">
+  
+  </div>
+  </div>
   
  </div>
 )
