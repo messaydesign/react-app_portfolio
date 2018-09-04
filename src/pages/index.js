@@ -55,9 +55,7 @@ Each individual from different disciplinary provides a unique and valuable persp
 
   </div>
 </div>
-  </main>
-
-  <section className="sectionName"> 
+<section className="sectionName"> 
   <div className="sectionGroup">
   <div className="section1"> 
   
@@ -101,6 +99,9 @@ pitfalls and make positive impact.
   </div>
   
   </section>
+  </main>
+
+  
   
   <div class="work"> 
   <div class="workGroup">
