@@ -60,7 +60,7 @@ Each individual from different disciplinary provides a unique and valuable persp
   <section className="sectionName"> 
   <div className="sectionGroup">
   <div className="section1"> 
-  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div> 
+  <div> <img src={require ('../imges/user.svg')} width="50"/> </div> 
   <h1> User research </h1>
   <p>
     Products are used by whole range of people, from different cultures, with physical, and situational
@@ -69,7 +69,7 @@ Each individual from different disciplinary provides a unique and valuable persp
 </p> 
 </div>
   <div className="section1"> 
-  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div>
+  <div> <img src={require ('../imges/user.svg')} width="50"/> </div>
   <h1> Business research</h1>
   <p>
   Developing a deeper understanding of the business mission, its culture, and operations to get a
@@ -79,7 +79,7 @@ build.
 </div>
 
   <div className="section1">
-  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div>
+  <div> <img src={require ('../imges/user.svg')} width="50"/> </div>
   <h1> Design Decision</h1>
    <p>
    For every design decision creating a quick sketch, flowcharts, prototypes and detailed documentation
@@ -88,7 +88,7 @@ clear the air between Product, Business and Engineering.
 </p> 
 </div>
   <div className="section1">
-  <div> <img src={require ('../imges/Logo.svg')} width="75"/> </div>
+  <div> <img src={require ('../imges/user.svg')} width="50"/> </div>
   <h1> Communication </h1> 
   <p>
   To pitch any design decision from any product team needs a clear pitch deck to get buy from
