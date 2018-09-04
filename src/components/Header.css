@@ -45,11 +45,16 @@
     border: none;
     color: white;
     cursor: pointer;
-
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
 }
 
+
+
 .Header button:hover {
-background-color:lightcoral;
+background-color:#403fff;
 transform: translateY(-4px);
 }
 
