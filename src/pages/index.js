@@ -37,7 +37,7 @@ const IndexPage = () => (
 
    <div className="mainGroup">
   <h1 calssName="main">
-  Let’s Build <br/> messay Something great together
+  Let’s Build <br/> Something great together
   </h1>
   <p>
   It is all about solving problems, if not it would be pixel art. Product design always starts with understanding the problem rigorously.The fun part being a product designer is that I have problems to solve every single day with collaborative problem-solving process. In my 7+ years journey I realize that close collaboration of multidisciplinary team with a design process creates a winning product. 
