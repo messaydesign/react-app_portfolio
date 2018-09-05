@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.3;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .devider {
@@ -26,7 +26,7 @@ text-decoration: none;
 }
 
 .hero{
-  
+  cursor: url('../imges/curser.png'), default; 
    background-image: url('../imges/here.svg'),url('../imges/hero.jpg');
    height: 100vh;
    background-size: cover;
@@ -36,6 +36,7 @@ text-decoration: none;
   animation-duration:10s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  
 
 }
 .nameGroup {
@@ -179,6 +180,7 @@ main {
   padding:200px;
   -webkit-clip-path: polygon(100% 0, 100% 77%, 46% 100%, 0 90%, 11% 8%);
 clip-path: polygon(100% 0, 100% 77%, 46% 100%, 0 90%, 11% 8%);
+cursor: url('../imges/curser.png'), auto;
  
 }
 .workGroup {
@@ -237,6 +239,101 @@ grid-gap: 2em;
 }
 
 
+
+
+
+.Card1{
+  width: 400px;
+  height: 500px;
+  position:relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(100% 5%, 100% 70%, 88% 100%, 4% 95%, 0 0);
+  clip-path: polygon(100% 5%, 100% 70%, 88% 100%, 4% 95%, 0 0);
+  box-shadow: 0 20px 48px rgba(0,0,0, 0.25);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Card1:hover{
+  -webkit-clip-path: polygon(100% 5%, 95% 31%, 100% 95%, 13% 100%, 0 0);
+clip-path: polygon(100% 5%, 95% 31%, 100% 95%, 13% 100%, 0 0);
+  transform: scale(1.1, 1.1);
+}
+.Card1:hover img {
+  transform: translateY(-20px);
+  
+}
+.Card1 img {
+  position: absolute;
+  top:0;
+  height: 110%;
+  z-index: -1;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Card1 h3 {
+  color:white;
+  font-size: 30px;
+  margin:20px 0 0 20px;
+  width: 100%;
+}
+.Card1 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  align-self:end;
+  margin: 0 0 20px 20px;
+}
+
+
+
+
+
+
+
+.Card2{
+  width: 400px;
+  height: 500px;
+  position:relative;
+  overflow: hidden;
+  -webkit-clip-path: polygon(100% 5%, 100% 70%, 88% 100%, 4% 95%, 0 0);
+  clip-path: polygon(100% 5%, 100% 70%, 88% 100%, 4% 95%, 0 0);
+  box-shadow: 0 20px 48px rgba(0,0,0, 0.25);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Card2:hover{
+  -webkit-clip-path: polygon(100% 0, 95% 100%, 0 100%, 5% 61%, 0 0);
+clip-path: polygon(100% 0, 95% 100%, 0 100%, 5% 61%, 0 0);
+  transform: scale(1.1, 1.1);
+}
+.Card2:hover img {
+  transform: translateY(-20px);
+  
+}
+.Card2 img {
+  position: absolute;
+  top:0;
+  height: 110%;
+  z-index: -1;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Card2 h3 {
+  color:white;
+  font-size: 30px;
+  margin:20px 0 0 20px;
+  width: 100%;
+}
+.Card2 p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  align-self:end;
+  margin: 0 0 20px 20px;
+}
+
+
+
+
+
 .phone {
   margin: 0 auto;
 }
@@ -257,7 +354,7 @@ grid-gap: 2em;
 }
 
 .sketchGroup h1 {
-  
+  font-family: "marydale",sans-serif;
   font-size: 78px;
   background-color: #0c0c0c8e;
   padding: 20px 50px;
@@ -267,6 +364,7 @@ grid-gap: 2em;
 }
 
 .end {
+  cursor: url('../imges/github.svg'), auto; 
   background-image:url('../imges/layer.svg'),url('../imges/circle.svg');
   background-color: white;
   background-size: cover;
