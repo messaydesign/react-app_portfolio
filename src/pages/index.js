@@ -13,7 +13,9 @@ const IndexPage = () => (
    <h1>Messay F. Denbel  </h1> 
    </div>
     </div>
-    <div className="nameCont"> <p> <strong>  👋🏽  Hi, </strong> <br/>I am a product designer focused on creating digital experiences who has a passion for motion, visual design, human-centered designer. I really enjoy digging into complex user experience problems with a deliberate curious mindset. All of my work is based on applying the design process to a variety of problems. 
+    <div className="nameCont"> <p> <strong>  👋🏽  Hi, </strong> <br/>I am a product designer focused on creating digital experiences who has a passion for motion, 
+    visual design, human-centered designer. I really enjoy digging into complex user experience problems with a deliberate curious mindset. 
+    All of my work is based on applying the design process to a variety of problems. 
       </p> 
     </div>
      <p></p>
@@ -104,126 +106,57 @@ pitfalls and make positive impact.
   
   
   <div className="work"> 
+  <div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
   <div className="workGroup">
-  
-  <div className="phone"> <img src={require ('../imges/phone.svg')} width="300"/> </div>
-  <p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-
-  
+  <div className="Cards">
+<div className = "Card"> <img src={require ('../imges/img1.jpg')}/> 
+<h3> Rethinking Design</h3>
+<p> The mavs official App</p>
   </div>
+<div className = "Card"> <img src={require ('../imges/img1.jpg')}/></div>
+<div className = "Card"> <img src={require ('../imges/img1.jpg')}/></div>
+
+</div>
+  </div>
+  <div className="devider"> <img src={require ('../imges/straight.svg')}/>
+   </div>
   </div>
   
 <div className="sketch">
-
+<div className="sketchGroup"><h1> Design is all anout emphty !</h1>
+<div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
+</div>
 
 </div>
 
 <div className="end">
 <div className="endGroup"> 
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p> 
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p> 
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
-<p>
-  To pitch any design decision from any product team needs a clear pitch deck to get buy from
-stakeholders. In this process having a working prototype really help to avoid communication
-pitfalls and make positive impact.
-</p>
+<div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
+<button> Let's see how</button>
+
+
+
+<p> Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
+  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
+  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
+  we were able to deliver the most highly revered mobile experience in professional sports. 
+  I hope to work with Messay again in the future and highly recommend him to 
+  any organization looking for UX/UI expertise.Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
+  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
+  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
+  we were able to deliver the most highly revered mobile experience in professional sports. 
+  I hope to work with Messay again in the future and highly recommend him to 
+  any organization looking for UX/UI expertise.Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
+  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
+  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
+  we were able to deliver the most highly revered mobile experience in professional sports. 
+  I hope to work with Messay again in the future and highly recommend him to 
+  any organization looking for UX/UI expertise.Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
+  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
+  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
+  we were able to deliver the most highly revered mobile experience in professional sports. 
+  I hope to work with Messay again in the future and highly recommend him to 
+  any organization looking for UX/UI expertise. </p>
 
 </div>
 </div>
