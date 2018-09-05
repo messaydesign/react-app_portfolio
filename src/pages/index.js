@@ -113,8 +113,12 @@ pitfalls and make positive impact.
 <h3> Rethinking Design</h3>
 <p> The mavs official App</p>
   </div>
-<div className = "Card"> <img src={require ('../imges/img1.jpg')}/></div>
-<div className = "Card"> <img src={require ('../imges/img1.jpg')}/></div>
+<div className = "Card"> <img src={require ('../imges/img1.jpg')}/>
+<h3> Rethinking Design</h3>
+<p> The mavs official App</p></div>
+<div className = "Card"> <img src={require ('../imges/img1.jpg')}/>
+<h3> Rethinking Design</h3>
+<p> The mavs official App</p></div>
 
 </div>
   </div>
