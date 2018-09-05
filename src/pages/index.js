@@ -103,12 +103,133 @@ pitfalls and make positive impact.
 
   
   
-  <div class="work"> 
-  <div class="workGroup">
+  <div className="work"> 
+  <div className="workGroup">
+  
+  <div className="phone"> <img src={require ('../imges/phone.svg')} width="300"/> </div>
+  <p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+
   
   </div>
   </div>
   
+<div className="sketch">
+
+
+</div>
+
+<div className="end">
+<div className="endGroup"> 
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p> 
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p> 
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+<p>
+  To pitch any design decision from any product team needs a clear pitch deck to get buy from
+stakeholders. In this process having a working prototype really help to avoid communication
+pitfalls and make positive impact.
+</p>
+
+</div>
+</div>
+
+
+
  </div>
 )
 
