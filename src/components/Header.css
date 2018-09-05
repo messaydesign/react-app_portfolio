@@ -28,7 +28,7 @@
     
 }
 
-.Header a:active {
+.Header a::selection {
     text-decoration: underline;
     text-decoration-color:#fa3416;
     color: rgb(150, 150, 150);
@@ -46,10 +46,10 @@
     color: white;
     cursor: pointer;
     outline : none;
-    -webkit-transition: background-color .5s ease-out;
-    -moz-transition: background-color .5s ease-out;
-    -o-transition: background-color .5s ease-out;
-    transition: background-color .5s ease-out;
+    -webkit-transition: background-color .8s ease-out;
+    -moz-transition: background-color .8s ease-out;
+    -o-transition: background-color .8s ease-out;
+    transition: background-color .8s ease-out;
 }
 
 
