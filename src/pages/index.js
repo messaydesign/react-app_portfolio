@@ -9,8 +9,8 @@ const IndexPage = () => (
   
    <div className="name">
    <div className="nameGroup"> 
-   <Link to="/"> <img src={require ('../imges/Logo.svg')} width="75"/> </Link>
-   <h1>Messay F. Denbel  </h1> 
+    
+   <h1>  <img src={require ('../imges/Logo.svg')} width="75"/> Messay F. Denbel  </h1> 
    </div>
     </div>
     <div className="nameCont"> <p> <strong>👋🏽 Hi, </strong> <br/>I am a product designer focused on creating digital experiences who has a passion for motion, 
@@ -138,8 +138,6 @@ pitfalls and make positive impact.
 <div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
 <button> Let's see how</button>
 
-
-
 <p> Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
   He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
   and producing innovative designs across multiple platforms. Because of Messay’s contributions 
@@ -165,7 +163,23 @@ pitfalls and make positive impact.
 </div>
 </div>
 
+<div className="white">
+<h1> Creating the world's most honest  and irreverent weather app.
+</h1>
+<div className="whiteGroup"> 
+<div> <img src={require ('../imges/phone.png')} width="400"/> </div>
 
+
+</div>
+<div className="thanks">
+<div className="thanksGroup"> 
+<h3> I've been fortunate enough to be featured in highly acclaimed publications such as .net Magazine, 
+  Computer Arts,  FastCompany, Wired, Inc Magazine, FirstRound Capital, The Washington Post, Bloomberg, 
+  Business Insider and many others.</h3>
+  <h2> Thank You! 🙏🏽 </h2>
+</div>
+</div>
+</div>
 
  </div>
 )
