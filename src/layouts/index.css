@@ -389,7 +389,7 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
 
 .white {
   background-color: white;
-  height: 100vh;
+ 
   padding: 200px 0 200px 0;
   color:black;
   margin-top:-180px;
