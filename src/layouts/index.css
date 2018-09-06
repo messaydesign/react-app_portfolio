@@ -4,6 +4,7 @@
 
 body {
   color: white;
+  overflow-x: hidden;
   background-color:#0c0c0c;
   margin:0;
   font-size: 20px;
