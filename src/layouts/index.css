@@ -13,6 +13,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   scroll-behavior: smooth;
+  max-width: 100%;
+    overflow-x: hidden;
 }
 
 .devider {
@@ -374,11 +376,10 @@ clip-path: polygon(100% 0, 95% 100%, 0 100%, 5% 61%, 0 0);
 }
 
 .end {
-  cursor: url('../imges/curserWhite.png'), auto;
+  
   background-image:url('../imges/layer.svg'),url('../imges/circle.svg');
   background-color: white;
   background-size: cover;
-
   margin-top: -25px;
   padding-top:200px;
   width:100%;
@@ -389,23 +390,74 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
 .endGroup {
   max-width: 1200px;
   background-color: #0c0c0c;
-  margin: auto;
+  margin:0 auto;
   padding: 100px;
 }
+
+.endInside {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 16px;
+}
+
+
+.endImage {
+  background-image:url('../imges/pr-image.jpg');
+  width:400px;
+  height:auto;
+  margin-bottom:20px;
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: repeat(2,auto);
+}
+.endImage h1 {
+  color:white;
+  font-size: 78px;
+  font-weight: 100;
+  line-height: 69px;
+  margin-top:90%;
+  margin-left:10%;
+}
+
+.endimagetext h3 {
+ font-size: 64px;
+ font-weight: 100;
+ margin-left: 12px;
+ font-weight: 100;
+}
+.endimagetext p {
+  font-size: 24px;
+  font-weight: 100;
+  margin-left: 12px;
+  font-weight: 100;
+ 
+ }
+
 .endGroup button{
   background-color:#FED230;
   padding: 16px 22px;
   font-size: 18px;
   border: none;
   font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  margin-bottom:20px;
+}
+
+.endGroup button:hover{
+  background-color:#1D1E24;
+  padding: 16px 22px;
+  font-size: 18px;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 .white {
   background-color: white;
- 
   padding: 200px 0 200px 0;
   color:black;
-  margin-top:-180px;
+  margin-top:-190px;
+  
 }
 .white h1 {
   max-width: 1200px;
@@ -422,12 +474,25 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
   max-width:1200px;
   margin: 0 auto;
   padding: 100px;
+  
+}
+.whiteGroupTwo {
+  margin:0 auto;
+}
+
+.whiteGroup img {
+ margin:0 auto;
+ width: 300px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
 }
 
 .thanks {
   width:1200px;
   margin: 20px auto;
 }
+
 .thanksGroup h3 {
   max-width:700px;
   color: black;
@@ -436,7 +501,6 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
 
 .thanksGroup h2 {
   color: #ff1900;
-
 }
 
 
@@ -480,7 +544,7 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
   
 }
 
-
+/*
 @media (max-width: 784px){
   .nameGroup h1{
    font-size: 24px;
@@ -506,7 +570,7 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
     grid-template-columns: repeat(2,auto);}
 
 }
-
+*/
 
 
 @keyframes HeroAnimation {

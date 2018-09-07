@@ -129,30 +129,24 @@ pitfalls and make positive impact.
 
 <div className="end">
 <div className="endGroup">  
-<div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
-<button> The Process</button>
+<div className="endInside">
+  <div className="endImage">
+  <h1>The<br/> Process</h1>
+   </div>
+  <div className="endimagetext">
+    <h3>
+    I work closely with your development 
+    <div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
+    <p> team,marketing professionals and stakeholders to design and 
+  develop UX and UI that make your website, application 
+  or software a joy to use. </p>
+    </h3>
+    
+    </div>
+</div>
 
-<p> Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
-  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
-  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
-  we were able to deliver the most highly revered mobile experience in professional sports. 
-  I hope to work with Messay again in the future and highly recommend him to 
-  any organization looking for UX/UI expertise.Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
-  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
-  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
-  we were able to deliver the most highly revered mobile experience in professional sports. 
-  I hope to work with Messay again in the future and highly recommend him to 
-  any organization looking for UX/UI expertise.Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
-  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
-  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
-  we were able to deliver the most highly revered mobile experience in professional sports. 
-  I hope to work with Messay again in the future and highly recommend him to 
-  any organization looking for UX/UI expertise.Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
-  He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
-  and producing innovative designs across multiple platforms. Because of Messay’s contributions 
-  we were able to deliver the most highly revered mobile experience in professional sports. 
-  I hope to work with Messay again in the future and highly recommend him to 
-  any organization looking for UX/UI expertise. </p>
+
+  <Link to="/process"> <button> The Process</button> </Link> 
 
 </div>
 </div>
@@ -161,9 +155,7 @@ pitfalls and make positive impact.
 <h1> Creating the world's most honest  and irreverent weather app.
 </h1>
 <div className="whiteGroup"> 
-<div> <img src={require ('../imges/phone.png')} width="400"/> </div>
-
-
+<div ClassName="WhiteGroupTwo"> <img src={require ('../imges/phone.png')}/> </div>
 </div>
 <div className="thanks">
 <div className="thanksGroup"> 
