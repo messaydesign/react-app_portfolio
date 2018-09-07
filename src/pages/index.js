@@ -108,7 +108,7 @@ pitfalls and make positive impact.
 <h3> Rethinking Design</h3>
 <p> The mavs official App</p></div>
 <div className = "Card2"> <img src={require ('../imges/img1.jpg')}/>
-<h3> Rethinking Design</h3>
+<h3> Changing the way <br/>fans buy tickets online.</h3>
 <p> The mavs official App</p></div>
 
 </div>
@@ -118,16 +118,19 @@ pitfalls and make positive impact.
   </div>
   
 <div className="sketch">
-<div className="sketchGroup"><h1> Design is all anout emphty !</h1>
+<div className="sketchGroup"><h3> I work closely with your development team, 
+  marketing professionals and stakeholders to design and 
+  develop UX and UI that make your website, application 
+  or software a joy to use.</h3>
 <div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
 </div>
 
 </div>
 
 <div className="end">
-<div className="endGroup"> 
+<div className="endGroup">  
 <div className="devider"> <img src={require ('../imges/straight.svg')}/> </div>
-<button> Let's see how</button>
+<button> The Process</button>
 
 <p> Messay’s UX knowledge, skills, and instincts gave our business a competitive advantage. 
   He’s a big-picture thinker, and excellent collaborator, capable of solving complex UX problems, 
