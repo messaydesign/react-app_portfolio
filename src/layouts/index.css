@@ -522,7 +522,10 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
   .nameGroup img {
     width: 50px;
   }
-  
+  .nameCont p {
+    font-size:18px;
+
+
   .social {
    width: 100%;
    display: grid;
