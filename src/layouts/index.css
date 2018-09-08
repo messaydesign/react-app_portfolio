@@ -524,8 +524,7 @@ clip-path: polygon(100% 0, 100% 94%, 26% 97%, 0 82%, 0 0);
   }
   .nameCont p {
     font-size:18px;
-
-
+  }
   .social {
    width: 100%;
    display: grid;
